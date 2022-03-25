@@ -1,10 +1,11 @@
 print("====EJERCICIO N°4====")
-
+def pintar():
+    for i in range(height):
+        
+        print(str(letter)*width)
 width  = int(input("Ancho = "))
-height = int(input("Largo = "))
+height = int(input("Alto = "))
 letter = str(input("Ingrese un caracter = "))
-for i in range(height):
-    for X in range(width):
-        print(letter , end=" ")
-    print()
-print("The program has been ejecutad")
+
+
+pintar()
